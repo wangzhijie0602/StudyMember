@@ -29,8 +29,8 @@ def get_image():        #获取验证码图片
 def get_token(verify):
         url = "https://bgapi.54heb.com/admin/login"
         data = {
-                "account": "18003233003",
-                "pass": "7176ce",
+                "account": "",
+                "pass": "",
                 "verify": verify,
                 "is_quick": "0"
                 }
